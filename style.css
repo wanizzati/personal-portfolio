@@ -16,12 +16,27 @@ h1
 	font-family: consolas;
 	font-size: 40px;
 	color: maroon;
-	border-width: 10px;
 }
 h2
 {
-	background-color: blanchedalmond;
+	background-color: midnightblue;
 	font-family: monospace;
 	font-size: 20px;
-	color: maroon;
+	color: white;
 }
+
+a:link, a:visited
+	{
+	background-color: none;
+	color: maroon;
+	text-allign: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px;           
+   	}
+
+a:hover, a:active
+	{
+	background-color: lightslategray;
+	color: white;          
+   	}
